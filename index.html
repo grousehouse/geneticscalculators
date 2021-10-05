@@ -1,0 +1,80 @@
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<script src="Script.js"></script>
+
+<!-- Tabs -->
+<body onload="document.getElementById('defaultOpen').click();">
+<div class="header">
+  <img src="https://i.imgur.com/KOEevq8.png" class="grouse">
+  <div class="title">
+    <h1>
+    Wolvden Heat Calculators</h1>
+  </div>
+</div>
+<div class="tabcontainer">
+<div class="tab">
+  <button class="tablinks active" onclick="openCalculator(event, 'NextHeat')" id="defaultOpen">Next Heat</button>
+  <button class="tablinks" onclick="openCalculator(event, 'LifetimeHeats')">Lifetime Heats</button>
+  <button class="tablinks" onclick="openCalculator(event, 'SexChange')">Unbred/Male Heat</button>
+  
+</div>
+
+<!-- Next Heat Calculator -->
+<div id="NextHeat" class="tabcontent">
+  <h2>Next Heat Calculator</h2>
+  <p>This calculator will tell you what age your wolf will be when their next heat starts, based on their current age and breeding cooldown.</p>
+  <h3>
+Input your wolf's information here!
+</h3>
+<p>
+My wolf is <input type="number" id="year1" min="1" max ="7"> years and <input type="number" id="month1" min="0" max ="11.5" step="0.5"> months old.<br>
+They current have a <input type="number" id="cooldown1" min="1" max ="20">-rollover breeding cooldown.
+</p>
+<div class="small">
+<i>If your wolf is currently nursing, you can check exactly how many rollovers are left in their breeding cooldown by hovering over or tapping on the hourglass icon by their info on your den page! Their nesting period is included in their breeding cooldown.</i></div>
+<br><br>
+<div class="heatCalc">
+         <button onclick="calculateHeat()">Calculate Next Heat</button>
+         <p id="nextheatcalculation"><br></p>
+     </div>
+</div>
+
+<!-- Lifetime Heats Calculator -->
+<div id="LifetimeHeats" class="tabcontent">
+  <h2>Lifetime Heats Calculator</h2>
+  <p>This calculator will tell you have many heats your wolf has left before they die. This assumes that your wolf is always bred on the first day of their heat. If you plan on instant delivering every one of your wolf's litters right after they are bred, select the checkbox below that indicates this.</p> 
+  <h3>
+Input your wolf's information here!
+</h3>
+<p>
+My wolf is <input type="number" id="year2" min="1" max ="7"> years and <input type="number" id="month2" min="0" max ="11.5" step="0.5"> months old.<br>
+They current have a <input type="number" id="cooldown2" min="1" max ="20">-rollover breeding cooldown.<br>
+ <input type="checkbox" id="IPD">Instant deliver every litter?
+</p>
+<div class="small">
+<i>If your wolf is currently nursing, you can check exactly how many rollovers are left in their breeding cooldown by hovering over or tapping on the hourglass icon by their info on your den page! Their nesting period is included in their breeding cooldown.</i></div>
+<br><br>
+        <button onclick="calculateLifetime()">Calculate Lifetime Heats</button> <br>
+        <p id="LifetimeHeatsCalculation"><br></p>
+</div>
+
+<!-- Unbred/Male Heat Calculator -->
+<div id="SexChange" class="tabcontent">
+  <h2>Unbred/Male Heats Calculator</h2>
+  <p>Every wolf, regardless of sex, has a heat cycle! It doesn't show on male wolves, but it coorelates to their age. Depending on their age, a male wolf might go immediately into heat when they're sex changed. This calculator will tell you if your male wolf would be in heat if you were to sex change them, or how far away their heat would be!<br><br>Using an aging crystal on a pup or adolescent messes with this heat cycle. Aging crystal functionality coming soon!<br></p> 
+  <h3>
+Input your wolf's information here!
+</h3>
+<p>
+My wolf is <input type="number" id="year3" min="1" max ="7"> years and <input type="number" id="month3" min="0" max ="11.5" step="0.5"> months old.<br>
+</p>
+<br><br>
+        <button onclick="calculateMale()">Calculate Heat</button> <br>
+        <p id="UnbredHeatsCalculation"><br></p>
+        
+</div>
+</div>
+<div class="footer">
+<p>
+Brought to you by the <a href="https://www.wolvden.com/chatter/topic/258">Grouse House</a>. Not officially affiliated with Wolvden. Message <a href="https://www.wolvden.com/profile/201">Maddie (#201)</a> with any questions, concerns, bugs etc, or comment on our <a href="https://www.wolvden.com/chatter/topic/46913">forum topic!</a> All images used on this page are property of <a href="https://www.wolvden.com">Wolvden.com</a>.</p>
+</div>
+</body>
