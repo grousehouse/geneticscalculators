@@ -82,7 +82,7 @@ p {
   font-size: 12px;
 }
 
-div#NextHeat {
+div#Base {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
@@ -90,7 +90,100 @@ div#NextHeat {
   max-width: 1140px;
 }
 
-div#LifetimeHeats {
+.baseContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.baseSelect {
+  width: 200px;
+  background: #fff;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+img#base1image {
+  max-width:200px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+img#base2image {
+  max-width:200px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+span#base1genetics {
+  font-size:12px;
+  font-weight: bold;
+}
+
+span#base2genetics {
+  font-size:12px;
+  font-weight: bold;
+}
+
+.baseHeader {
+  background: #252525;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+}
+
+.baseFooter {
+  background: #252525;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+select {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: #333;
+  display: block;
+  padding: 5px;
+  width: 100%;
+  word-wrap: normal;
+}
+
+option {
+  display: block;
+}
+
+.resultsContainer {
+  background-color: #999;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div#baseOutcomes {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+div#Markings {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
@@ -98,7 +191,15 @@ div#LifetimeHeats {
   max-width: 1140px;
 }
 
-div#SexChange {
+div#Eyes {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+  background-color: #fff;
+  max-width: 1140px;
+}
+
+div#pupPredictor {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
