@@ -91,33 +91,31 @@ div#Base {
 }
 
 .baseContainer {
-  display: flex;
-  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 75%;
+  text-align: center;
 }
 
 .baseSelect {
-  width: 200px;
+  width: 28%;
   background: #fff;
   border: 1px solid gray;
   border-radius: 5px;
   margin: 5px;
   position: relative;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
 }
 
 img#base1image {
-  max-width:200px;
+  max-width:90%;
   margin-top:5px;
   margin-bottom:5px;
 }
 
 img#base2image {
-  max-width:200px;
+  max-width:90%;
   margin-top:5px;
   margin-bottom:5px;
 }
@@ -138,6 +136,7 @@ span#base2genetics {
   font-size: 12px;
   padding: 5px;
   font-weight: bold;
+  border-radius: 4px 4px 0px 0px;
 }
 
 label {
@@ -172,15 +171,37 @@ option {
   border: 1px solid gray;
   border-radius: 5px;
   padding: 5px;
+  max-width: 100%;
+  wrap: no-wrap;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
-div#baseOutcomes {
+.resultConditional {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+}
+
+.baseResult {
+  border: 1px solid gray;
+  background: #fff;
+  border-radius: 5px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-bottom: 5px;
+  max-width: 150px;
+  display: inline-block;
+}
+
+.resultImage {
+  max-width: 100%;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 div#Markings {
