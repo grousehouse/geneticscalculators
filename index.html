@@ -551,33 +551,561 @@
   <br>
   <h2>Results</h2>
     <div class="resultsContainer">
-      <div id="Invalid" style="display:show;">
+      <div id="Invalid" class="resultConditional" style="display:show;">
         Select two bases from the dropdown menus above!
       </div>
-      <div id="CoolLightI" class="resultConditional" style="display:none;">
-        <div class="baseResult">
-        <div class="baseHeader">
-          Glaucous
+      <div id="CLI" class="resultConditional" style="display:none;">
+        Cool Light I
       </div>
-        <img class="resultImage" src="https://i.imgur.com/yNRGU3Y.png">
-        <div class="resultGenetics">
-             Cool Light I
-             </div>
-  </div>
-        <div class="baseResult">
-        <div class="baseHeader">
-          Honeydew
+      <div id="CLICLII" class="resultConditional" style="display:none;">
+        Cool Light I Cool Light II
       </div>
-        <img class="resultImage" src="https://i.imgur.com/uEt2Wp0.png">
-        <div class="resultGenetics">
-             Cool Light I
-             </div>
-  </div>
-        
+      <div id="CL" class="resultConditional" style="display:none;">
+        Cool Light
       </div>
-      <div id="Monochrome" style="display:none;">
-        Monochrome Results
+      <div id="CLICMI" class="resultConditional" style="display:none;">
+        Cool Light I Cool Medium I 
       </div>
+      <div id="CLICLIICMICMII" class="resultConditional" style="display:none;">
+        Cool Light I cool light ii cool medium i cool medium ii
+      </div>
+      <div id="CLCM" class="resultConditional" style="display:none;">
+        Cool Light cool medium
+      </div>
+      <div id="CLICMICDI" class="resultConditional" style="display:none;">
+        Cool Light i cool medium i cool dark i
+      </div>
+      <div id="CLICLIICMICMIICDICDII" class="resultConditional" style="display:none;">
+        Cool Light i cool light ii cool medium i cool medium ii cool dark i cool dark ii
+      </div>
+      <div id="Cool" class="resultConditional" style="display:none;">
+        Cool
+      </div>
+      <div id="CLIMuLIMoLI" class="resultConditional" style="display:none;">
+        Cool light i muted light i mono light i
+      </div>
+      <div id="CLICLIIMuLIMuLIIMoLIMoLII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii muted light i muted light ii mono light i mono light ii
+      </div>
+      <div id="CLMuLMoL" class="resultConditional" style="display:none;">
+        Cool light muted light mono light
+      </div>
+      <div id="CLICMIMuLIMuMIMoLIMoMI" class="resultConditional" style="display:none;">
+        Cool light i cool medium i muted light i muted medium i mono light i mono medium i
+      </div>
+      <div id="CLICLIICMICMIIMuLIMuLIIMuMIMuMIIMoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        Cool light i cool ligt ii cool medium i cool medium ii muted light i muted light ii muted medium i muted medium ii mono light i mono light ii mono medium i mono medium ii
+      </div>
+      <div id="CLCMMuLMuMMoLMoM" class="resultConditional" style="display:none;">
+        Cool light cool medium muted light muted medium mono light mono medium
+      </div>
+      <div id="CLICMICDIMuLIMuMIMuDIMoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        Cool light i cool medium i cool dark i muted light i muted medium i muted dark i mono light i mono medium i mono dark i
+      </div>
+      <div id="CLICLIICMICMIICDICDIIMuLIMuLIIMuMIMuMIIMuDIMuDIIMoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii cool medium i cool medium ii cool dark i cool dark ii muted light imuted light ii muted medium i muted medium ii muted dark i muted dark ii mono light i mono light ii mono medium i mono medium ii mono dark i mono dark ii
+      </div>
+      <div id="CoolMutedMonochrome" class="resultConditional" style="display:none;">
+        Cool muted monochrome
+      </div>
+      <div id="CLIWLIMuLIMoLI" class="resultConditional" style="display:none;">
+        Cool light i warm light i muted light i mono light i
+      </div>
+      <div id="CLICLIIWLIWLIIMuLIMuLIIMoLIMoLII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii warm light i warm light ii muted light i muted light ii mono light i mono light ii
+      </div>
+      <div id="Light" class="resultConditional" style="display:none;">
+        Light
+      </div>
+      <div id="CLICMIWLIWMIMuLIMuMIMoLIMoMI" class="resultConditional" style="display:none;">
+        Cool light i cool medkum i warm light i warm medium i muted light i muted medium i mono light i mono medium i
+      </div>
+      <div id="CLICLIICMICMIIWLIWLIIWMIWMIIMuLIMuLIIMuMIMuMIIMoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        cool light i cool light ii cool medium i cool medium ii warm light i warm light ii warm medium i warm medium ii muted light i muted light ii muted medium i muted medium ii mono light i mono light ii mono medium i mono medium ii
+      </div>
+      <div id="CLCMWLWMMuLMuMMoLMoM" class="resultConditional" style="display:none;">
+        Cool light cool medium warm light warm medium muted light muted medium mono light mono medium
+      </div>
+      <div id="CLICMICDIWLIWMIWDIMuLIMuMIMuDIMoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        cool i warm i muted i mono i
+      </div>
+      <div id="CLICLIICMICMIICDICDIIWLIWLIIWMIWMIIWDIWDIIMuLIMuLIIMuMIMuMIIMuDIMuDIIMoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool i ii warm i ii muted i ii mono i ii
+      </div>
+      <div id="CoolWarmMutedMonochrome" class="resultConditional" style="display:none;">
+        Cool warm muted mono
+      </div>
+      <div id="CLIMoLI" class="resultConditional" style="display:none;">
+        Cool light i mono light i
+      </div>
+      <div id="CLICLIIMoLIMoLII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii mono light i mono light ii
+      </div>
+      <div id="CLMoL" class="resultConditional" style="display:none;">
+        Cool light mono light
+      </div>
+      <div id="CLICMIMoLIMoMI" class="resultConditional" style="display:none;">
+        Cool light i cool medium i mono light i mono medium i
+      </div>
+      <div id="CLICLIICMICMIIMoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii cool medium i cool medium ii mono light i mono light ii mono medium i mono medium ii
+      </div>
+      <div id="CLCMMoLMoM" class="resultConditional" style="display:none;">
+        Cool light cool medium mono light mono medium
+      </div>
+      <div id="CLICMICDIMoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        cool light i cool medium i cool dark i mono light i mono medium i mono dark i
+      </div>
+      <div id="CLICLIICMICMIICDICDIIMoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool light i cool light ii cool medium i cool medium ii cool dark i cool dark ii mono light i mono light ii mono medium i mono medium ii mono dark i mono dark ii
+      </div>
+      <div id="CoolMonochrome" class="resultConditional" style="display:none;">
+        Cool monochrome
+      </div>
+      <div id="CMICDI" class="resultConditional" style="display:none;">
+        Cool medium i cool dark i
+      </div>
+      <div id="CMIICDII" class="resultConditional" style="display:none;">
+        Cool medium i cool dark i
+      </div>
+      <div id="CMCD" class="resultConditional" style="display:none;">
+        Cool medium cool dark
+      </div>
+      <div id="CMICDIMuMIMuDIMoMIMoDI" class="resultConditional" style="display:none;">
+        Cool medium i cool dark i muted medium i muted dark i monochrome medium i monochrome dark i
+      </div>
+      <div id="CMICMIICDICDIIMuMIMuMIIMuDIMuDIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool medium i ii cool dark i ii muted medium i ii muted dark i ii monochrome medium i ii monochrome dark i ii
+      </div>
+      <div id="CMCDMuMMuDMoMMoD" class="resultConditional" style="display:none;">
+        Cool medium cool dark muted medium muted dark monochrome medium monochrome dark
+      </div>
+      <div id="CMICDIWMIWDIMuMIMuDIMoMIMoDI" class="resultConditional" style="display:none;">
+        Cool medium i cool dark i warm medium i warm dark i muted medium i muted dark i monochrome medium i monochrome dark i
+      </div>
+      <div id="CMICMIICDICDIIWMIWMIIWDIWDIIMuMIMuMIIMuDIMuDIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool medium i ii cool dark i ii warm medium i ii warm dark i ii muted medium i ii muted dark i ii monochrome medium i ii monochrome dark i ii
+      </div>
+      <div id="CMCDWMWDMuMMuDMoMMoD" class="resultConditional" style="display:none;">
+        Cool medium cool dark warm medium warm dark muted medium muted dark monochrome medium monochrome dark
+      </div>
+      <div id="CMICDIMoMIMoDI" class="resultConditional" style="display:none;">
+        Cool medium i cool dark i monochrome medium i monochrome dark i
+      </div>
+      <div id="CMICMIICDICDIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool medium i ii cool dark i ii monochrome medium i ii monochrome dark i ii
+      </div>
+      <div id="CMCDMoMMoD" class="resultConditional" style="display:none;">
+        Cool medium cool dark monochrome medium monochrome dark
+      </div>
+      <div id="CDI" class="resultConditional" style="display:none;">
+        Cool dark i
+      </div>
+      <div id="CDICDII" class="resultConditional" style="display:none;">
+        Cool dark i ii
+      </div>
+      <div id="CD" class="resultConditional" style="display:none;">
+        Cool dark
+      </div>
+      <div id="CDIMuDIMoDI" class="resultConditional" style="display:none;">
+        Cool dark i muted dark i monochrome dark i
+      </div>
+      <div id="CDICDIIMuDIMuDIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool dark i ii muted dark i ii monochrome dark i ii
+      </div>
+      <div id="CDMuDMoD" class="resultConditional" style="display:none;">
+        Cool dark muted dark monochrome dark
+      </div>
+      <div id="CDIWDIMuDIMoDI" class="resultConditional" style="display:none;">
+        Cool dark i warm dark i muted dark i monochrome dark i
+      </div>
+      <div id="CDICDIIWDIWDIIMuDIMuDIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool dark i ii warm dark i ii muted dark i ii monochrome dark i ii
+      </div>
+      <div id="Dark" class="resultConditional" style="display:none;">
+        All dark
+      </div>
+      <div id="CDIMoDI" class="resultConditional" style="display:none;">
+        Cool dark i monochrome dark i
+      </div>
+      <div id="CDICDIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Cool dark i ii monochrome dark i ii
+      </div>
+      <div id="CDMoD" class="resultConditional" style="display:none;">
+        Cool dark monochrome dark
+      </div>
+      <div id="MuLIWLIMoLI" class="resultConditional" style="display:none;">
+        Muted light i warm light i monochrome light i
+      </div>
+      <div id="MuLIMuLIIWLIWLIIMoLIMoLII" class="resultConditional" style="display:none;">
+        Muted light i ii warm light i ii monochrome light i ii
+      </div>
+      <div id="MuLWLMoL" class="resultConditional" style="display:none;">
+        Muted light warm light monochrome light
+      </div>
+      <div id="MuLIMuMIWLIWMIMoLIMoMI" class="resultConditional" style="display:none;">
+        Muted light i muted medium i warm light i warm medium i monochrome light i monochrome medium i
+      </div>
+      <div id="MuLIMuLIIMuMIMuMIIWLIWLIIWMIWMIIMoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        Muted light i ii muted medium i ii warm light i ii warm medium i ii monochrome light i ii monochrome medium i ii
+      </div>
+      <div id="MuLMuMWLWMMoLMoM" class="resultConditional" style="display:none;">
+        Muted light muted medium warm light warm medium monochrome light monochrome medium
+      </div>
+      <div id="MuLIMuMIMuDIWLIWMIWDIMoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        Muted light i muted medium i muted dark i warm light i warm medium i warm dark i monochrome light i monochrome medium i monochrome dark i
+      </div>
+      <div id="MuLIMuLIIMuMIMuMIIMuDIMuDIIWLIWLIIWMIWMIIWDIWDIIMoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted light i ii muted medium i ii muted dark i ii warm light i ii warm medium i ii warm dark i ii monochrome light i ii monochrome medium i ii monochrome dark i ii
+      </div>
+      <div id="MutedWarmMonochrome" class="resultConditional" style="display:none;">
+        Muted Warm Monochrome
+      </div>
+      <div id="MuLIMoLI" class="resultConditional" style="display:none;">
+        Muted light 1 mono light i
+      </div>
+      <div id="MuLIMuLIIMoLIMoLII" class="resultConditional" style="display:none;">
+        Muted light i ii mono light i ii
+      </div>
+      <div id="MuLMoL" class="resultConditional" style="display:none;">
+        Muted light mono light
+      </div>
+      <div id="MuLIMuMIMoLIMoMI" class="resultConditional" style="display:none;">
+        Muted light i muted medium i mono light i mono medium i
+      </div>
+      <div id="MuLIMuLIIMuMIMuMIIMoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        Muted light i ii muted medium i ii mono light i ii mono medium i ii
+      </div>
+      <div id="MuLMuMMoLMoM" class="resultConditional" style="display:none;">
+        Muted light muted medium mono light mono medium
+      </div>
+      <div id="MuLIMuMIMuDIMoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        Muted light i muted medium i muted dark i mono light i mono medium i mono dark i
+      </div>
+      <div id="MuLIMuLIIMuMIMuMIIMuDIMuDIIMoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted light i ii muted medium i ii muted dark i ii mono light i ii mono medium i ii mono dark i ii
+      </div>
+      <div id="MutedMonochrome" class="resultConditional" style="display:none;">
+        Muted Monochrome
+      </div>
+      <div id="MuMIMuDIWMIWDIMoMIMoDI" class="resultConditional" style="display:none;">
+        Muted medium i muted dark i warm medium i warm dark i mono medium i mono dark i
+      </div>
+      <div id="MuMIMuMIIMuDIMuDIIWMIWMIIWDIWDIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted medium i ii muted dark i ii warm medium i ii warm dark i ii mono medium i ii mono dark i ii
+      </div>
+      <div id="MuMMuDWMWDMoMMoD" class="resultConditional" style="display:none;">
+        Muted medium muted dark warm medium warm dark mono medium mono dark
+      </div>
+      <div id="MuMIMuDIMoMIMoDI" class="resultConditional" style="display:none;">
+        Muted medium i muted dark i mono medium i mono dark i
+      </div>
+      <div id="MuMIMoMIIMuDIMuDIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted medium i ii muted dark i ii mono medium i ii mono dark i ii
+      </div>
+      <div id="MuMMuDMoMMoD" class="resultConditional" style="display:none;">
+        Muted medium muted dark mono medium mono dark
+      </div>
+      <div id="MuDIWDIMoDI" class="resultConditional" style="display:none;">
+        Muted dark i warm dark i mono dark i
+      </div>
+      <div id="MuDIMuDIIWDIWDIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted dark i ii warm dark i ii mono dark i ii
+      </div>
+      <div id="MuDWDMoD" class="resultConditional" style="display:none;">
+        Muted dark warm dark mono dark
+      </div>
+      <div id="MuDIMoDI" class="resultConditional" style="display:none;">
+        Muted dark i mono dark i
+      </div>
+      <div id="MuDIMuDIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Muted dark i muted dark ii mono dark i mono dark ii
+      </div>
+      <div id="MuDMoD" class="resultConditional" style="display:none;">
+        Muted dark mono dark
+      </div>
+      <div id="WLI" class="resultConditional" style="display:none;">
+        Warm light i
+      </div>
+      <div id="WLIWLII" class="resultConditional" style="display:none;">
+        Warm light i ii
+      </div>
+      <div id="WL" class="resultConditional" style="display:none;">
+        Warm light
+      </div>
+      <div id="WLIWMI" class="resultConditional" style="display:none;">
+        Warm light i warm medium i
+      </div>
+      <div id="WLIWLIIWMIWMII" class="resultConditional" style="display:none;">
+        Warm light i ii warm medium i ii
+      </div>
+      <div id="WLWM" class="resultConditional" style="display:none;">
+        Warm light warm medium
+      </div>
+      <div id="WLIWMIWDI" class="resultConditional" style="display:none;">
+        Warm light i warm medium i warm dark i
+      </div>
+      <div id="WLIWLIIWMIWMIIWDIWDII" class="resultConditional" style="display:none;">
+        Warm light i ii warm medium i ii warm dark i ii
+      </div>
+      <div id="Warm" class="resultConditional" style="display:none;">
+        Warm
+      </div>
+      <div id="WMIWDI" class="resultConditional" style="display:none;">
+        Warm medium i warm dark i
+      </div>
+      <div id="WMIWMIIWDIWDII" class="resultConditional" style="display:none;">
+        Warm medium i ii warm dark i ii
+      </div>
+      <div id="WMWD" class="resultConditional" style="display:none;">
+        Warm medium warm dark
+      </div>
+      <div id="WDI" class="resultConditional" style="display:none;">
+        Warm dark i
+      </div>
+      <div id="WDIWDII" class="resultConditional" style="display:none;">
+        Warm dark i ii
+      </div>
+      <div id="WD" class="resultConditional" style="display:none;">
+        Warm dark
+      </div>
+      <div id="MoLI" class="resultConditional" style="display:none;">
+        Mono light i
+      </div>
+      <div id="MoLIMoLII" class="resultConditional" style="display:none;">
+        Mono light i ii
+      </div>
+      <div id="MoL" class="resultConditional" style="display:none;">
+        Mono light
+      </div>
+      <div id="MoLIMoMI" class="resultConditional" style="display:none;">
+        Mono light i mono medium i
+      </div>
+      <div id="MoLIMoLIIMoMIMoMII" class="resultConditional" style="display:none;">
+        Mono light i ii mono medium i ii
+      </div>
+      <div id="MoLMoM" class="resultConditional" style="display:none;">
+        Mono light mono medium
+      </div>
+      <div id="MoLIMoMIMoDI" class="resultConditional" style="display:none;">
+        Mono light i mono medium i mono dark i
+      </div>
+      <div id="MoLIMoLIIMoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Mono light i ii mono medium i ii mono dark i ii
+      </div>
+      <div id="Monochrome" class="resultConditional" style="display:none;">
+        Mono light
+      </div>
+      <div id="MoMIMoDI" class="resultConditional" style="display:none;">
+        Mono medium i mono dark i
+      </div>
+      <div id="MoMIMoMIIMoDIMoDII" class="resultConditional" style="display:none;">
+        Mono medium i ii mono dark i ii
+      </div>
+      <div id="MoMMoD" class="resultConditional" style="display:none;">
+        Mono medium mono dark
+      </div>
+      <div id="MoDI" class="resultConditional" style="display:none;">
+        Mono dark i
+      </div>
+      <div id="MoDIMoDII" class="resultConditional" style="display:none;">
+        Mono dark i ii
+      </div>
+      <div id="MoD" class="resultConditional" style="display:none;">
+        Mono dark
+      </div>
+      <div id="SeleneCL" class="resultConditional" style="display:none;">
+        Selene cool light
+      </div>
+      <div id="SeleneCLCM" class="resultConditional" style="display:none;">
+        Selene cool light cool medium
+      </div>
+      <div id="SeleneCool" class="resultConditional" style="display:none;">
+        Selene cool
+      </div>
+      <div id="SeleneMuL" class="resultConditional" style="display:none;">
+        Selene muted light
+      </div>
+      <div id="SeleneMuLMuM" class="resultConditional" style="display:none;">
+        Selene muted light muted medium
+      </div>
+      <div id="SeleneMuted" class="resultConditional" style="display:none;">
+        Selene muted
+      </div>
+      <div id="SeleneWL" class="resultConditional" style="display:none;">
+        Selene warm light
+      </div>
+      <div id="SeleneWLWM" class="resultConditional" style="display:none;">
+        Selene warm light warm medium
+      </div>
+      <div id="SeleneWarm" class="resultConditional" style="display:none;">
+        Selene warm
+      </div>
+      <div id="SeleneMoL" class="resultConditional" style="display:none;">
+        Selene mono light
+      </div>
+      <div id="SeleneMoLMoM" class="resultConditional" style="display:none;">
+        Selene mono light mono medium
+      </div>
+      <div id="SeleneMonochrome" class="resultConditional" style="display:none;">
+        Selene mono
+      </div>
+      <div id="SeleneLight" class="resultConditional" style="display:none;">
+        Selene light
+      </div>
+      <div id="SeleneLunaLightMedium" class="resultConditional" style="display:none;">
+        Selene luna light medium
+      </div>
+      <div id="SeleneMoonlightLightMedium" class="resultConditional" style="display:none;">
+        Selene moonlight light medium
+      </div>
+      <div id="SeleneLosnaAllBases" class="resultConditional" style="display:none;">
+        Selene losna all bases
+      </div>
+      <div id="LunaCLCM" class="resultConditional" style="display:none;">
+        Luna cool light cool medium
+      </div>
+      <div id="LunaCool" class="resultConditional" style="display:none;">
+        Luna cool
+      </div>
+      <div id="LunaCMCD" class="resultConditional" style="display:none;">
+        Luna cool medium cool dark
+      </div>
+      <div id="LunaMuLMuM" class="resultConditional" style="display:none;">
+        Luna muted light muted medium
+      </div>
+      <div id="LunaMuted" class="resultConditional" style="display:none;">
+        Luna muted
+      </div>
+      <div id="LunaMuMMuD" class="resultConditional" style="display:none;">
+        Luna muted medium muted dark
+      </div>
+      <div id="LunaWLWM" class="resultConditional" style="display:none;">
+        Luna warm light warm medium
+      </div>
+      <div id="LunaWarm" class="resultConditional" style="display:none;">
+        Luna warm
+      </div>
+      <div id="LunaWMWD" class="resultConditional" style="display:none;">
+        Luna warm medium warm dark
+      </div>
+      <div id="LunaMoLMoM" class="resultConditional" style="display:none;">
+        Luna mono light mono medium
+      </div>
+      <div id="LunaMonochrome" class="resultConditional" style="display:none;">
+        Luna mono
+      </div>
+      <div id="LunaMoMMoD" class="resultConditional" style="display:none;">
+        Luna mono medium mono dark
+      </div>
+      <div id="LunaSeleneLightMedium" class="resultConditional" style="display:none;">
+        Luna selene light medium
+      </div>
+      <div id="LunaAllBases" class="resultConditional" style="display:none;">
+        Luna all bases
+      </div>
+      <div id="LunaMoonlightAllBases" class="resultConditional" style="display:none;">
+        Luna moonlight all bases
+      </div>
+      <div id="LunaLosnaMediumDark" class="resultConditional" style="display:none;">
+        Luna losna medium dark
+      </div>
+      <div id="MoonlightCLCM" class="resultConditional" style="display:none;">
+        Moonlight cool light cool medium
+      </div>
+      <div id="MoonlightCool" class="resultConditional" style="display:none;">
+        Moonlight cool
+      </div>
+      <div id="MoonlightCMCD" class="resultConditional" style="display:none;">
+        Moonlight cool medium cool dark
+      </div>
+      <div id="MoonlightMuLMuM" class="resultConditional" style="display:none;">
+        Moonlight muted light muted medium
+      </div>
+      <div id="MoonlightMuted" class="resultConditional" style="display:none;">
+        Moonlight muted
+      </div>
+      <div id="MoonlightMuMMuD" class="resultConditional" style="display:none;">
+        Moonlight muted medium muted dark
+      </div>
+      <div id="MoonlightWLWM" class="resultConditional" style="display:none;">
+        Moonlight warm light warm medium
+      </div>
+      <div id="MoonlightWarm" class="resultConditional" style="display:none;">
+        Moonlight warm
+      </div>
+      <div id="MoonlightWMWD" class="resultConditional" style="display:none;">
+        Moonlight warm medium warm dark
+      </div>
+      <div id="MoonlightMoLMoM" class="resultConditional" style="display:none;">
+        Moonlight mono light mono medium
+      </div>
+      <div id="MoonlightMonochrome" class="resultConditional" style="display:none;">
+        Moonlight mono
+      </div>
+      <div id="MoonlightMoMMoD" class="resultConditional" style="display:none;">
+        Moonlight mono medium mono dark
+      </div>
+      <div id="MoonlightSeleneLightMedium" class="resultConditional" style="display:none;">
+        Moonlight selene light medium
+      </div>
+      <div id="MoonlightAllBases" class="resultConditional" style="display:none;">
+        Moonlight all bases
+      </div>
+      <div id="MoonlightLosnaMediumDark" class="resultConditional" style="display:none;">
+        Moonlight losna medium dark
+      </div>
+      <div id="LosnaCool" class="resultConditional" style="display:none;">
+        Losna cool
+      </div>
+      <div id="LosnaCMCD" class="resultConditional" style="display:none;">
+        Losna cool medium cool dark
+      </div>
+      <div id="LosnaCD" class="resultConditional" style="display:none;">
+        Losna cool dark
+      </div>
+      <div id="LosnaMuted" class="resultConditional" style="display:none;">
+        Losna muted
+      </div>
+      <div id="LosnaMuMMuD" class="resultConditional" style="display:none;">
+        Losna muted medium muted dark
+      </div>
+      <div id="LosnaMuD" class="resultConditional" style="display:none;">
+        Losna muted dark
+      </div>
+      <div id="LosnaWarm" class="resultConditional" style="display:none;">
+        Losna warm
+      </div>
+      <div id="LosnaWMWD" class="resultConditional" style="display:none;">
+        Losna warm medium warm dark
+      </div>
+      <div id="LosnaWD" class="resultConditional" style="display:none;">
+        Losna warm dark
+      </div>
+      <div id="LosnaMonochrome" class="resultConditional" style="display:none;">
+        Losna mono
+      </div>
+      <div id="LosnaMoMMoD" class="resultConditional" style="display:none;">
+        Losna mono medium mono dark
+      </div>
+      <div id="LosnaMoD" class="resultConditional" style="display:none;">
+        Losna mono dark
+      </div>
+      <div id="LosnaSeleneAllBases" class="resultConditional" style="display:none;">
+        Losna selene all bases
+      </div>
+      <div id="LosnaLunaMediumDark" class="resultConditional" style="display:none;">
+        Losna luna medium dark
+      </div>
+      <div id="LosnaMoonlightMediumDark" class="resultConditional" style="display:none;">
+        Losna moonlight medium dark
+      </div>
+      <div id="LosnaDark" class="resultConditional" style="display:none;">
+        Losna dark
+      </div>
+
+
+
   </div>
 
 <!-- Markings Calculator -->
