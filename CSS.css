@@ -108,6 +108,10 @@ div#Base {
   display: inline-block;
 }
 
+div#Invalid {
+  justify-content:center;
+}
+
 img#base1image {
   max-width:90%;
   margin-top:5px;
@@ -120,14 +124,18 @@ img#base2image {
   margin-bottom:5px;
 }
 
-span#base1genetics {
+div#base1genetics {
   font-size:12px;
   font-weight: bold;
+  text-align:center;
+  margin-bottom: 5px;
 }
 
-span#base2genetics {
+div#base2genetics {
   font-size:12px;
   font-weight: bold;
+  text-align:center;
+  margin-bottom: 5px;
 }
 
 .baseHeader {
@@ -199,6 +207,12 @@ option {
 }
 
 .resultImage {
+  max-width: 100%;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.resultGenetics {
   max-width: 100%;
   margin-top:5px;
   margin-bottom:5px;
