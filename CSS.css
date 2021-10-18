@@ -124,6 +124,12 @@ img#base2image {
   margin-bottom:5px;
 }
 
+img#base3image {
+  max-width:90%;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
 div#base1genetics {
   font-size:12px;
   font-weight: bold;
@@ -132,6 +138,13 @@ div#base1genetics {
 }
 
 div#base2genetics {
+  font-size:12px;
+  font-weight: bold;
+  text-align:center;
+  margin-bottom: 5px;
+}
+
+div#base3genetics {
   font-size:12px;
   font-weight: bold;
   text-align:center;

@@ -8948,19 +8948,19 @@ var divsToHide = document.getElementsByClassName('resultConditional');
 }
 
 function swapName3(){ 
-  var sel = document.getElementById("base1select")
+  var sel = document.getElementById("base3select")
   var text= sel.options[sel.selectedIndex].text;
-  document.getElementById("base1name").innerHTML = text;
+  document.getElementById("base3name").innerHTML = text;
 }
 
 function swapImage3(){
-  var image = document.getElementById("base1image");
-  var dropd = document.getElementById("base1select");
+  var image = document.getElementById("base3image");
+  var dropd = document.getElementById("base3select");
   image.src = dropd.value;
 }
 
 function swapGenetics3() {
-  var sel = document.getElementById("base1select")
+  var sel = document.getElementById("base3select")
   var name= sel.options[sel.selectedIndex].text;
   if (name === 'Glaucous' || name === 'Honeydew' ) {
     var genetics = "Cool Light I";
@@ -9044,7 +9044,7 @@ function swapGenetics3() {
   } else {
   var genetics = "undefined";
   }
-  document.getElementById("base1genetics").innerHTML = genetics;
+  document.getElementById("base3genetics").innerHTML = genetics;
 }
 
 
