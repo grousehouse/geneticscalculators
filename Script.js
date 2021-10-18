@@ -8947,6 +8947,619 @@ var divsToHide = document.getElementsByClassName('resultConditional');
   }
 }
 
+function getResultsObtention() {
+  var sel = document.getElementById("base1select")
+  var name= sel.options[sel.selectedIndex].text;
+  
+var divsToHide = document.getElementsByClassName('obtentionResultConditional');
+    for(var i = 0; i < divsToHide.length; i++) {
+      divsToHide[i].style.display = 'none';
+    }
+  
+  if (name === "Glaucous") {
+    document.getElementById ("CLIBasicObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Honeydew") {
+    document.getElementById ("CLICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Lavender") {
+    document.getElementById ("CLIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Pale") {
+    document.getElementById ("CLIICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Sky") {
+    document.getElementById ("CLIISNBWObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+    else if (name === "Opal") {
+    document.getElementById ("CLIIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Blue") {
+    document.getElementById ("CMICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Khaki") {
+    document.getElementById ("CMIBasicObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Diorite") {
+    document.getElementById ("CMIISNBWObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Galena") {
+    document.getElementById ("CMIICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Maltese") {
+    document.getElementById ("CMIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Grulla") {
+    document.getElementById ("CMIIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Marengo") {
+    document.getElementById ("CDIBasicObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Skarn") {
+    document.getElementById ("CDICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Denim") {
+    document.getElementById ("CDIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Lilac") {
+    document.getElementById ("CDIICustomObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Nocturne") {
+    document.getElementById ("CDIISNBWObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Serpentine") {
+    document.getElementById ("CDIIIBreedObtain").style.display = 'block';
+    document.getElementById ("CoolColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Apricot") {
+    document.getElementById ("MuLICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Beige" || name === "Cream Lighter") {
+    document.getElementById ("MuLIBasicObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+ 
+  else if (name === "Shell") {
+    document.getElementById ("MuLIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Almond" || name === "Buff") {
+    document.getElementById ("MuLIICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Feldspar") {
+    document.getElementById ("MuLIISNBWObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Isabel" || name === "Peach") {
+    document.getElementById ("MuLIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Teardrop" || name === "Zircon") {
+    document.getElementById ("MuLIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Honey") {
+    document.getElementById ("MuMICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Cream" || name === "Cream Darker") {
+    document.getElementById ("MuMIBasicObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+ 
+  else if (name === "Willow") {
+    document.getElementById ("MuMIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Sandy" || name === "Vanilla") {
+    document.getElementById ("MuMIICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Tuff") {
+    document.getElementById ("MuMIISNBWObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Antler" || name === "Blonde") {
+    document.getElementById ("MuMIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Lily" || name === "Pearl") {
+    document.getElementById ("MuMIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Chocolate") {
+    document.getElementById ("MuDICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Caramel" || name === "Dark Brown") {
+    document.getElementById ("MuDIBasicObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+ 
+  else if (name === "Chestnut") {
+    document.getElementById ("MuDIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Oroide" || name === "Pecan") {
+    document.getElementById ("MuDIICustomObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Ebony") {
+    document.getElementById ("MuDIISNBWObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Cocoa" || name === "Sepia") {
+    document.getElementById ("MuDIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Seal" || name === "Bronze") {
+    document.getElementById ("MuDIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MutedColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Goldenrod" || name === "Gold Lighter") {
+    document.getElementById ("WLIBasicObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Magnolia") {
+    document.getElementById ("WLICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Tumbleweed") {
+    document.getElementById ("WLIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Arkose" || name === "Jacinthe") {
+    document.getElementById ("WLIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Calcite" || name === "Ducat") {
+    document.getElementById ("WLIICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Yellow") {
+    document.getElementById ("WLIISNBWObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Piasa" || name === "Tombac") {
+    document.getElementById ("WLIIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Gold" || name === "Gold Darker") {
+    document.getElementById ("WMIBasicObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Red") {
+    document.getElementById ("WMICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Brass") {
+    document.getElementById ("WMIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Doubloon" || name === "Saffron") {
+    document.getElementById ("WMIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Sulphur" || name === "Tawny") {
+    document.getElementById ("WMIICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Rust") {
+    document.getElementById ("WMIISNBWObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Mojave" || name === "Wulfenite") {
+    document.getElementById ("WMIIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Fox") {
+    document.getElementById ("FoxObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Amber" || name === "Brown") {
+    document.getElementById ("WDIBasicObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Liver") {
+    document.getElementById ("WDICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Henna") {
+    document.getElementById ("WDIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Auburn" || name === "Sarder") {
+    document.getElementById ("WDIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Dinar" || name === "Russet") {
+    document.getElementById ("WDIICustomObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Dravite") {
+    document.getElementById ("WDIISNBWObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Pyrope" || name === "Realgar") {
+    document.getElementById ("WDIIIBreedObtain").style.display = 'block';
+    document.getElementById ("WarmColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Snow" || name === "White") {
+    document.getElementById ("MoLIBasicObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Dust") {
+    document.getElementById ("MoLICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Quartz") {
+    document.getElementById ("MoLIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Melchior" || name === "Rime" || name === "Titanium") {
+    document.getElementById ("MoLIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Siqoq") {
+    document.getElementById ("MoLIICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Nepheline") {
+    document.getElementById ("MoLIISNBWObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Argent" || name === "Chromium") {
+    document.getElementById ("MoLIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("LightShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Ashen" || name === "Birch") {
+    document.getElementById ("MoMIBasicObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Howlite") {
+    document.getElementById ("MoMICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Gray Lighter") {
+    document.getElementById ("MoMIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Acanthite" || name === "Silver" || name === "Steele") {
+    document.getElementById ("MoMIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Chert") {
+    document.getElementById ("MoMIICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Sterling") {
+    document.getElementById ("MoMIISNBWObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Flint" || name === "Striped Flint") {
+    document.getElementById ("MoMIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("MediumShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Black" || name === "Gray") {
+    document.getElementById ("MoDIBasicObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Jet") {
+    document.getElementById ("MoDICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Gray Darker") {
+    document.getElementById ("MoDIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IRarity").style.display = 'block';
+  }
+  
+  else if (name === "Obsidian" || name === "Sphalerite") {
+    document.getElementById ("MoDIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Obsidian" || name === "Pewter") {
+    document.getElementById ("MoDIICustomObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Biotite") {
+    document.getElementById ("MoDIISNBWObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Iridium" || name === "Slate") {
+    document.getElementById ("MoDIIIBreedObtain").style.display = 'block';
+    document.getElementById ("MonochromeColour").style.display = 'block';
+    document.getElementById ("DarkShade").style.display = 'block';
+    document.getElementById ("IIIRarity").style.display = 'block';
+  }
+  
+  else if (name === "Selene") {
+    document.getElementById ("SeleneObtain").style.display = 'block';
+    document.getElementById ("SeleneColour").style.display = 'block';
+    document.getElementById ("SpecialShade").style.display = 'block';
+    document.getElementById ("SpecialRarity").style.display = 'block';
+  }
+  
+  else if (name === "Luna") {
+    document.getElementById ("LunaObtain").style.display = 'block';
+    document.getElementById ("LunaColour").style.display = 'block';
+    document.getElementById ("SpecialShade").style.display = 'block';
+    document.getElementById ("SpecialRarity").style.display = 'block';
+  }
+  
+  else if (name === "Moonlight") {
+    document.getElementById ("MoonlightObtain").style.display = 'block';
+    document.getElementById ("MoonlightColour").style.display = 'block';
+    document.getElementById ("SpecialShade").style.display = 'block';
+    document.getElementById ("SpecialRarity").style.display = 'block';
+  }
+  
+  else if (name === "Losna") {
+    document.getElementById ("LosnaObtain").style.display = 'block';
+    document.getElementById ("LosnaColour").style.display = 'block';
+    document.getElementById ("SpecialShade").style.display = 'block';
+    document.getElementById ("SpecialRarity").style.display = 'block';
+  }
+
+}
+
 
 
 
