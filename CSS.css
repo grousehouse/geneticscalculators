@@ -218,7 +218,7 @@ option {
   margin-bottom:5px;
 }
 
-div#Markings {
+div#BaseObtention {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
@@ -226,7 +226,7 @@ div#Markings {
   max-width: 1140px;
 }
 
-div#Eyes {
+div#BaseCategory {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
@@ -234,7 +234,31 @@ div#Eyes {
   max-width: 1140px;
 }
 
-div#pupPredictor {
+div#MarkingPredictor {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+  background-color: #fff;
+  max-width: 1140px;
+}
+
+div#MarkingTiers {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+  background-color: #fff;
+  max-width: 1140px;
+}
+
+div#EyePredictor {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: none;
+  background-color: #fff;
+  max-width: 1140px;
+}
+
+div#EyeObtention {
   margin-left: 10%;
   margin-right: 10%;
   border: none;
