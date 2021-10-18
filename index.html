@@ -12,15 +12,18 @@
 </div>
 <div class="tabcontainer">
 <div class="tab">
-  <button class="tablinks active" onclick="openCalculator(event, 'Base')" id="defaultOpen">Base</button>
-  <button class="tablinks" onclick="openCalculator(event, 'Markings')">Markings</button>
-  <button class="tablinks" onclick="openCalculator(event, 'Eyes')">Eyes</button>
-  <button class="tablinks active" onclick="openCalculator(event, 'pupPredictor')" id="defaultOpen">Pup Predictor</button>
+  <button class="tablinks active" onclick="openCalculator(event, 'BasePredictor')" id="defaultOpen">Base Predictor</button>
+    <button class="tablinks active" onclick="openCalculator(event, 'Base')" id="defaultOpen">Base Obtention References</button>
+    <button class="tablinks active" onclick="openCalculator(event, 'Base')" id="defaultOpen">Base Category References</button>
+  <button class="tablinks" onclick="openCalculator(event, 'Markings')">Marking Predictor</button>
+    <button class="tablinks" onclick="openCalculator(event, 'Markings')">Marking Tier References</button>
+  <button class="tablinks" onclick="openCalculator(event, 'Eyes')">Eye Predictor</button>
+    <button class="tablinks" onclick="openCalculator(event, 'Eyes')">Eye Obtention References</button>
   
 </div>
 
 <!-- Base Calculator -->
-<div id="Base" class="tabcontent">
+<div id="BasePredictor" class="tabcontent">
   <h2>Base Outcome Calculator</h2>
   <p>This calculator displays all possible bases that can result from a certain breeding. It does not include any probability or chance, rather it just shows potential outcomes. Certain bases possible in a breeding may be much rarer to obtain than others.</p>
   <div class="baseContainer">
